@@ -1,0 +1,31 @@
+Installing mysql 
+Download **[https://dev.mysql.com/downloads/windows/installer/8.0.html] **
+Installing java 1.8 [https://www.oracle.com/java/technologies/downloads/#java8]  
+
+Open mysql terminal or other tool Import database files
+
+Open the project file with idea mvn install Install the dependencies
+
+Modify the database configuration file for buscity
+
+Then configure tomcat to run the project
+
+User Guide 
+The bus website should be available at http://ec2-18-130-78-52.eu-west-2.compute.amazonaws.com/The website is designed to be compatible with most modern browsers, though Chrome or Safari are advised. 
+To access the admin page at the ‘/admin’ endpoint, you are required to be logged in with an admin account. To allow the exploration of the site, credentials for an admin account are provided below. 
+
+•Email: a@163.com 
+•Password: 123456
+ Running the Code Locally 
+These instructions can also be found in the README.md of the project. 
+Prerequisites: 
+To run the source code locally, IDE OR JDK is required (the latest version should work). Then, use IntelliJ IDEA 2023.1.1
+As the project uses MYSQL Atlas as its database, you are required to create a collection, or alternatively run a local version of MySQL. Either way, create a new collection and record the connection string, which will be in the format: 
+MySQL://username:password@localhost for a local database. 
+Password:root687799 
+
+Initialising the Project: 
+If you need to connect to the localhost3306, you need to reset the database
+Create a new database and enter 18.130.78.52 as the ip address
+Name creates a bus
+Password: TYRiXGp5XrDByaDB
